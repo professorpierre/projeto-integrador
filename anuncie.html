@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Anuncie</title>
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+  </head>
+
+
+  <body>
+    
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+      <div class="container-fluid">
+        
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link " href="../home/home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../explorar/explorar.html">Explorar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="../anuncie/anuncie.html">Anuncie</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../equipe/equipe.html">Equipe</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="../sobre/sobre.html">Sobre</a>
+            </li>
+           
+          </ul>
+          <form class="d-flex">
+             <button class="btn btn-danger" type="submit">Anuncie</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+    
+    
+<main class="container">
+    <div>
+      <h1 class="titulo">Cadastre-se</h1>
+      <h4 id='subtitulo'>Informe os dados solicitados abaixo:</h4>
+      <br>
+    </div>  
+
+  <form class="card-header py-3">
+
+     <div>
+     <div class="col-md-7 col-lg-8">
+       <h4 class="mb-3"></h4>
+       <form class="needs-validation" novalidate>
+         <div class="row g-3">
+           <div class="col-12">
+             <label for="firstName" class="form-label">Anunciante:</label>
+             <input type="text" class="form-control" id="firstName" placeholder="Digite o nome completo do anunciante..." value="" required>
+             <div class="invalid-feedback">
+             </div>
+           </div>
+
+           <div class="col-12">
+             <label for="email" class="form-label">Email: </label>
+             <input type="email" class="form-control" id="email" placeholder="exemplo@gmail.com">
+             <div class="invalid-feedback">
+             </div>
+           </div>
+
+       <div class="col-md-5">
+           <label for="country" class="form-label">Tipo/Serviços:</label>
+           <select class="form-select" id="country" required>
+             <option selected disabled value="">Selecione</option>
+             <option value="01">Advogado</option>>
+             <option value="02">Beat Maker</option>
+             <option value="03">Confeiteira</option>
+             <option value="04">Costureiro(a)</option>
+             <option value="05">Cozinheiro</option>
+             <option value="06">Desenhista</option>
+             <option value="07">Design Digital</option>
+             <option value="08">Design Games</option>
+             <option value="09">Encomendador(a) de doces</option>
+             <option value="10">Encomendador(a) de salgados</option>
+             <option value="11">Encomendador de salgados e doces</option>
+             <option value="12">Escritor(a)</option>
+             <option value="13">Pedreiro</option>
+             <option value="14">Organizador(a) De Eventos</option>
+             <option value="15">Professor </option>
+             <option value="16">Professor de Espanhol</option>
+             <option value="17">Professor de Inglês</option>
+             <option value="18">Professor de Japonês</option>
+             <option value="19">Programador</option>
+             <option value="20">Outros</option>
+           </select>
+          <div class="invalid-feedback">
+          </div>
+       </div>
+       <div class="col-md-7">
+        <label for="state" class="form-label">Outros:</label>
+        <input type="tipo" class="form-control" id="outros" placeholder="Adicione outro serviço">
+        <div class="invalid-feedback">
+        </div>
+      </div>
+        
+      <div class="">
+          <label>Conte um pouco da sua experiência:</label>
+          <textarea row='6' style='width: 37.8em' id='experiencia' name='experiencia' placeholder=" Comente aqui..."></textarea>
+      </div>
+    </div>
+      <br>
+      <button class="w-25 btn-primary btn-primary" type="submit">Finalizar cadastro</button>
+  </form>  
+</main>
+  
+
+  </body>
+<html>
