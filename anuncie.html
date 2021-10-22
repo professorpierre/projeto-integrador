@@ -81,18 +81,32 @@
        <form class="needs-validation" novalidate>
          <div class="row g-3">
            <div class="col-12">
-             <label for="firstName" class="form-label">Anunciante:</label>
-             <input type="text" class="form-control" id="firstName" placeholder="Digite o nome completo do anunciante..." value="" required>
+             <label for="firstName" class="form-label">Nome do anunciante:</label>
+             <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
              <div class="invalid-feedback">
              </div>
-           </div>
+          </div>
 
-           <div class="col-12">
-             <label for="email" class="form-label">Email: </label>
-             <input type="email" class="form-control" id="email" placeholder="exemplo@gmail.com">
-             <div class="invalid-feedback">
-             </div>
-           </div>
+          <div class="col-sm-6">
+            <label for="lastName" class="form-label">Sobrenome:</label>
+            <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+            <div class="invalid-feedback">
+            </div>
+          </div>
+
+          <div class="col-12">
+            <label for="email" class="form-label">Email: </label>
+            <input type="email" class="form-control" id="email" placeholder="exemplo@gmail.com">
+            <div class="invalid-feedback">
+            </div>
+          </div>
+
+          <div class="col-12">
+            <label for="address" class="form-label">Endereço:</label>
+            <input type="text" class="form-control" id="address" placeholder="Rua ...123- SP" required>
+            <div class="invalid-feedback">
+            </div>
+          </div>
 
        <div class="col-md-5">
            <label for="country" class="form-label">Tipo/Serviços:</label>
@@ -122,20 +136,22 @@
           <div class="invalid-feedback">
           </div>
        </div>
+
        <div class="col-md-7">
         <label for="state" class="form-label">Outros:</label>
         <input type="tipo" class="form-control" id="outros" placeholder="Adicione outro serviço">
         <div class="invalid-feedback">
         </div>
       </div>
-        
+
+      <br>  
       <div class="">
           <label>Conte um pouco da sua experiência:</label>
           <textarea row='6' style='width: 37.8em' id='experiencia' name='experiencia' placeholder=" Comente aqui..."></textarea>
       </div>
     </div>
       <br>
-      <button class="w-25 btn-primary btn-primary" type="submit">Finalizar cadastro</button>
+      <button class="w-100 btn btn btn-primary" type="submit">Finalizar cadastro</button>
   </form>  
 </main>
   
